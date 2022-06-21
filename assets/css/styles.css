@@ -1,0 +1,16 @@
+.nav {
+    height: 5rem;
+    width: 100%;
+    display: block;
+    justify-content: flex-start;
+    z-index: 10;
+    font-weight: 300;
+    transition: 0.2s ease-in-out;
+    position: fixed;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+
+}
