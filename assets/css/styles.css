@@ -124,14 +124,6 @@ section {
     background-color: rgb(63, 118, 238);
 }
 
-.four {
-    background-color: rgb(221, 22, 88);
-}
-
-.five {
-    background-color: rgb(163, 114, 8);
-}
-
 @media (max-width: 800px) {
     .nav {
         display: flex;
