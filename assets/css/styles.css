@@ -25,11 +25,11 @@ a {
 }
 
 section {
-    width: 100%;
     display: flex;
     margin: auto;
     align-items: center;
-    min-height: 110vh;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 /* Class */
@@ -116,6 +116,11 @@ section {
     background-color: #fff;
 }
 
+.one img {
+    height: auto;
+    width: 50%;
+}
+
 .two {
     background-color: rgb(190, 183, 170);
 }
@@ -125,6 +130,19 @@ section {
 }
 
 @media (max-width: 800px) {
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 85vh;
+    }
+
+    .one img {
+        width: 80%;
+    }
+
+    /* Class */
     .nav {
         display: flex;
         justify-content: center;
@@ -275,5 +293,6 @@ section {
         transform-origin: left top;
         transform: scale(1, 1);
     }
+
 }
 
