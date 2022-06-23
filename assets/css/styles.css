@@ -131,13 +131,6 @@ section {
 
 @media (max-width: 800px) {
 
-    section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 85vh;
-    }
-
     .one img {
         width: 80%;
     }
